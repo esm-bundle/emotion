@@ -1,6 +1,6 @@
 {
   "name": "@esm-bundle/emotion",
-  "version": "0.0.0-unpublished.0",
+  "version": "10.0.27",
   "description": "Repo to autopublish an esm-bundle of emotion",
   "main": "esm/emotion.min.js",
   "module": "esm/emotion.min.js",
