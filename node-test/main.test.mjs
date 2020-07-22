@@ -1,5 +1,13 @@
 describe("@esm-bundle/emotion", () => {
-  it("can load the esm bundle without dying", () => {
-    return import("../esm/index.js");
+  it("can load the development esm bundle without dying", async () => {
+    const { css, cx } = await import("../esm/emotion.js");
+    expect(css).not.to.equal(undefined);
+    expect(cx).not.to.equal(undefined);
+  });
+
+  it("can load the production esm bundle without dying", async () => {
+    const { css, cx } = await import("../esm/emotion.min.js");
+    expect(css).not.to.equal(undefined);
+    expect(cx).not.to.equal(undefined);
   });
 });
