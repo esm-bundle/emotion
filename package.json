@@ -1,9 +1,9 @@
 {
-  "name": "@esm-bundle/autopublish-template",
-  "version": "20.0.0",
-  "description": "Repo to test esm-bundle's automatic publishing",
-  "main": "index.js",
-  "module": "esm/index.js",
+  "name": "@esm-bundle/emotion",
+  "version": "0.0.0-unpublished.0",
+  "description": "Repo to autopublish an esm-bundle of emotion",
+  "main": "esm/emotion.min.js",
+  "module": "esm/emotion.min.js",
   "type": "module",
   "scripts": {
     "test": "yarn build && concurrently -n w: 'yarn:test:*'",
@@ -27,16 +27,22 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/esm-bundle/autopublish-template.git"
+    "url": "git+https://github.com/esm-bundle/emotion.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/esm-bundle/autopublish-template/issues"
+    "url": "https://github.com/esm-bundle/emotion/issues"
   },
-  "homepage": "https://github.com/esm-bundle/autopublish-template#readme",
+  "homepage": "https://github.com/esm-bundle/emotion#readme",
   "devDependencies": {
-    "autopublish-template": "20.0.0",
+    "@rollup/plugin-node-resolve": "^8.4.0",
+    "@rollup/plugin-replace": "^2.3.3",
+    "create-emotion": "^10.0.27",
+    "emotion": "^10.0.27",
     "esm-bundle-scripts": "1.2.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
