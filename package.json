@@ -1,9 +1,7 @@
 {
   "name": "@esm-bundle/emotion",
-  "version": "20.0.0",
-  "description": "Repo to test esm-bundle's automatic publishing",
-  "main": "index.js",
-  "module": "esm/index.js",
+  "version": "0.0.0-unpublished.0",
+  "description": "Repo to autopublish an esm-bundle of emotion",
   "type": "module",
   "scripts": {
     "test": "yarn build && concurrently -n w: 'yarn:test:*'",
