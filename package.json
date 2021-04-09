@@ -16,11 +16,6 @@
     "release": "release-it",
     "prepublishOnly": "pnpm build"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --staged && pnpm test"
-    }
-  },
   "files": [
     "esm",
     "system"
