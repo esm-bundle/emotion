@@ -1,6 +1,6 @@
 # emotion
 
-[![npm version](https://img.shields.io/npm/v/@esm-bundle/emotion.svg?style=flat)](https://www.npmjs.com/package/@esm-bundle/emotion) [![build status](https://travis-ci.com/esm-bundle/emotion.svg?branch=master)](https://travis-ci.com/esm-bundle/emotion) [![](https://data.jsdelivr.com/v1/package/npm/@esm-bundle/emotion/badge)](https://www.jsdelivr.com/package/npm/@esm-bundle/emotion)
+[![npm version](https://img.shields.io/npm/v/@esm-bundle/emotion.svg?style=flat)](https://www.npmjs.com/package/@esm-bundle/emotion) [![](https://data.jsdelivr.com/v1/package/npm/@esm-bundle/emotion/badge)](https://www.jsdelivr.com/package/npm/@esm-bundle/emotion)
 
 ["What is this" blog post](https://medium.com/@joeldenning/an-esm-bundle-for-any-npm-package-5f850db0e04d)
 
