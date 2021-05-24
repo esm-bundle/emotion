@@ -5,7 +5,7 @@ specifiers:
   '@rollup/plugin-node-resolve': 13.0.0
   '@rollup/plugin-replace': 2.3.4
   chai: 4.3.4
-  concurrently: 6.1.0
+  concurrently: 6.2.0
   create-emotion: 10.0.27
   emotion: 10.0.27
   jest-cli: 26.6.3
@@ -25,7 +25,7 @@ devDependencies:
   '@rollup/plugin-node-resolve': 13.0.0_rollup@2.49.0
   '@rollup/plugin-replace': 2.3.4_rollup@2.49.0
   chai: 4.3.4
-  concurrently: 6.1.0
+  concurrently: 6.2.0
   create-emotion: 10.0.27
   emotion: 10.0.27
   jest-cli: 26.6.3
@@ -1726,12 +1726,12 @@ packages:
     resolution: {integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=}
     dev: true
 
-  /concurrently/6.1.0:
-    resolution: {integrity: sha512-jy+xj49pvqeKjc2TAVXRIhrgPG51eBKDZti0kZ41kaWk9iLbyWBjH6KMFpW7peOLkEymD+ZM83Lx6UEy3N/M9g==}
+  /concurrently/6.2.0:
+    resolution: {integrity: sha512-v9I4Y3wFoXCSY2L73yYgwA9ESrQMpRn80jMcqMgHx720Hecz2GZAvTI6bREVST6lkddNypDKRN22qhK0X8Y00g==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     dependencies:
-      chalk: 4.1.0
+      chalk: 4.1.1
       date-fns: 2.20.1
       lodash: 4.17.21
       read-pkg: 5.2.0
