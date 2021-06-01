@@ -9,7 +9,7 @@ specifiers:
   create-emotion: 10.0.27
   emotion: 10.0.27
   jest-cli: 27.0.3
-  karma: 6.3.2
+  karma: 6.3.3
   karma-firefox-launcher: 2.1.0
   karma-jasmine: 4.0.1
   mocha: 8.4.0
@@ -29,9 +29,9 @@ devDependencies:
   create-emotion: 10.0.27
   emotion: 10.0.27
   jest-cli: 27.0.3
-  karma: 6.3.2
+  karma: 6.3.3
   karma-firefox-launcher: 2.1.0
-  karma-jasmine: 4.0.1_karma@6.3.2
+  karma-jasmine: 4.0.1_karma@6.3.3
   mocha: 8.4.0
   prettier: 2.3.0
   pretty-quick: 3.1.0_prettier@2.3.0
@@ -1970,7 +1970,7 @@ packages:
       cors: 2.8.5
       debug: 4.3.1
       engine.io-parser: 4.0.2
-      ws: 7.4.4
+      ws: 7.4.5
     transitivePeerDependencies:
       - bufferutil
       - supports-color
@@ -3377,18 +3377,18 @@ packages:
       which: 2.0.2
     dev: true
 
-  /karma-jasmine/4.0.1_karma@6.3.2:
+  /karma-jasmine/4.0.1_karma@6.3.3:
     resolution: {integrity: sha512-h8XDAhTiZjJKzfkoO1laMH+zfNlra+dEQHUAjpn5JV1zCPtOIVWGQjLBrqhnzQa/hrU2XrZwSyBa6XjEBzfXzw==}
     engines: {node: '>= 10'}
     peerDependencies:
       karma: '*'
     dependencies:
       jasmine-core: 3.7.1
-      karma: 6.3.2
+      karma: 6.3.3
     dev: true
 
-  /karma/6.3.2:
-    resolution: {integrity: sha512-fo4Wt0S99/8vylZMxNj4cBFyOBBnC1bewZ0QOlePij/2SZVWxqbyLeIddY13q6URa2EpLRW8ixvFRUMjkmo1bw==}
+  /karma/6.3.3:
+    resolution: {integrity: sha512-JRAujkKWaOtO2LmyPH7K2XXRhrxuFAn9loIL9+iiah6vjz+ZLkqdKsySV9clRITGhj10t9baIfbCl6CJ5hu9gQ==}
     engines: {node: '>= 10'}
     hasBin: true
     dependencies:
@@ -4149,7 +4149,7 @@ packages:
     resolution: {integrity: sha512-cMhu7c/8rdhkHXWsY+osBhfSy0JikwpHK/5+imo+LpeasTF8ouErHrlYkwT0++njiyuDvc7OFY5T3ukvZ8qmFQ==}
     engines: {node: '>=8.10.0'}
     dependencies:
-      picomatch: 2.2.2
+      picomatch: 2.3.0
     dev: true
 
   /rechoir/0.6.2:
@@ -5022,19 +5022,6 @@ packages:
       is-typedarray: 1.0.0
       signal-exit: 3.0.3
       typedarray-to-buffer: 3.1.5
-    dev: true
-
-  /ws/7.4.4:
-    resolution: {integrity: sha512-Qm8k8ojNQIMx7S+Zp8u/uHOx7Qazv3Yv4q68MiWWWOJhiwG5W3x7iqmRtJo8xxrciZUY4vRxUTJCKuRnF28ZZw==}
-    engines: {node: '>=8.3.0'}
-    peerDependencies:
-      bufferutil: ^4.0.1
-      utf-8-validate: ^5.0.2
-    peerDependenciesMeta:
-      bufferutil:
-        optional: true
-      utf-8-validate:
-        optional: true
     dev: true
 
   /ws/7.4.5:
