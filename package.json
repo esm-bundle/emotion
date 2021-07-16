@@ -33,7 +33,7 @@
   "devDependencies": {
     "@arkweid/lefthook": "0.7.6",
     "@rollup/plugin-node-resolve": "13.0.2",
-    "@rollup/plugin-replace": "2.3.4",
+    "@rollup/plugin-replace": "3.0.0",
     "chai": "4.3.4",
     "concurrently": "6.2.0",
     "create-emotion": "10.0.27",
