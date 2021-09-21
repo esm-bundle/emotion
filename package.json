@@ -32,7 +32,7 @@
   "homepage": "https://github.com/esm-bundle/emotion#readme",
   "devDependencies": {
     "@arkweid/lefthook": "0.7.6",
-    "@rollup/plugin-node-resolve": "13.0.4",
+    "@rollup/plugin-node-resolve": "13.0.5",
     "@rollup/plugin-replace": "3.0.0",
     "chai": "4.3.4",
     "concurrently": "6.2.1",
