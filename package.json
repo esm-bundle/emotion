@@ -38,7 +38,7 @@
     "concurrently": "6.4.0",
     "create-emotion": "10.0.27",
     "emotion": "10.0.27",
-    "jest-cli": "27.4.3",
+    "jest-cli": "27.4.4",
     "karma": "6.3.9",
     "karma-firefox-launcher": "2.1.2",
     "karma-jasmine": "4.0.1",
