@@ -35,7 +35,7 @@
     "@rollup/plugin-node-resolve": "15.0.1",
     "@rollup/plugin-replace": "5.0.1",
     "chai": "4.3.4",
-    "concurrently": "7.5.0",
+    "concurrently": "7.6.0",
     "create-emotion": "10.0.27",
     "emotion": "10.0.27",
     "jest-cli": "29.3.1",
