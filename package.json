@@ -39,7 +39,7 @@
     "create-emotion": "10.0.27",
     "emotion": "10.0.27",
     "jest-cli": "29.7.0",
-    "karma": "6.4.2",
+    "karma": "6.4.3",
     "karma-firefox-launcher": "2.1.2",
     "karma-jasmine": "5.1.0",
     "mocha": "10.3.0",
